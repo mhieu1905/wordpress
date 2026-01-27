@@ -1,0 +1,33 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Node / build
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Env / secrets
+.env
+.env.*
+wordpress/wp-config.php
+wordpress/wp-config-*.php
+
+# WordPress core (KHÔNG push)
+wordpress/wp-admin/
+wordpress/wp-includes/
+wordpress/*.php
+wordpress/*.txt
+wordpress/*.html
+wordpress/*.md
+
+# Uploads (data của khách)
+wordpress/wp-content/uploads/
+
+# Cache
+wordpress/wp-content/cache/
+wordpress/wp-content/upgrade/
+
+# Logs
+*.log
+mysql-data/
